@@ -4,66 +4,70 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery</title>
+    <title>My favourite hobby</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section id="one">
+    
+    <section id="sectionone">    
         <center>
-            <ul id="menu">
-                <li id="link"><a href="#one">Home</a></li>
-                <li id="link"><a href="#two">Grid View</a></li>
-                <li id="link"><a href="#three">Sliding View</a></li>
-            </ul>
-        </center>
-
-        <div class="himg">
-            <img src="flowers.gif" style="width: 56%">
+      <ul id="menu">
+            <li id="links"><a href="#about">About</a></li>
+            <li id="links"><a href="#favhobby">My Favourite Hobby</a></li>
+            <li id="links"><a href="#inspiration">My Inspiration</a></li>
+            <li id="links"><a href="#contact">Contacts</a></li>
+        </ul>
+    </center> 
+        
+        <img id="pic" src="tb.jpg">
+        <div>
+            <h1>My favourite hobby<br><span>Physical Exercise</span></h1>
+            <br><br>
+            <h2>I love doing exercise and yoga</h2>
         </div>
     </section>
-    <section id="two">
-        <h1>Grid View</h1>
-        <div class="row1">
-            <img src="blue.jpg">
-            <img src="Orange.png">
-            <img src="Pink%20tulip.jpg">
-        </div>
-        <div class="row2">
-            <img src="purple.jpg">
-            <img src="Red%20rose.jpg">
-            <img src="violet.jpg">
-        </div>
-    </section>
-    <section id="three">
 
-        <h1 style="font-size: 30px;margin-top: 5px">Sliding View</h1>
-        <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item-active">
-                        <center>
-                            <img class="img-responsive" src="White.jpg" style="width: 56%">
-                            <div class="carousel-content">
-                                <h3>White Rose</h3>
-                            </div>
-                        </center>
-                    </div>
-                    <div class="item">
-                        <center>
-                            <img class="img-responsive" src="yellow.jpg" style="width: 56%">
-                            <div class="carousel-content">
-                                <h3>Sunflower</h3>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-                <a class="left carousel-control" href="myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
+    <section id="about">
+        <h1>About</h1>
+        <div class="line"></div>
+        <p>I do jogging and physical exercise which I would call my hobby. I like it because it’s nice and always makes me feel good afterwards. It’s a great way to stay fit and make use of some extra time I have. It’s a very common type of sport for many people and it’s no wonder because it’s basically simple and easy to start. All you need is some energy, motivation, a pair of sport shoes and trousers that have some flexibility</p>
+    </section>
+    <section id="favhobby">
+        <h1>My Favourite Hobby</h1>
+        <div class="line"></div>
+        <iframe width="1370" height="650" src="https://www.youtube.com/embed/oSQrlzzuTa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <iframe width="1370" height="650" src="https://www.youtube.com/embed/-2IcOOUqNgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <br>
+        <a href="https://www.helpguide.org/articles/healthy-living/the-mental-health-benefits-of-exercise.htm#:~:text=Exercise%20can%20help%20provide%3A,helps%20prevent%20age%2Drelated%20decline.">Exercise benifits for our brain.</a><br>
+        <a href="https://osteopathic.org/what-is-osteopathic-medicine/benefits-of-yoga/">Benifits of Yoga for our health</a>
+    </section>
+    <section id="inspiration">
+        <h1 id="milkhaname">My Inspiration<br><span>Milkha Singh: The fliying Sikh</span></h1>
+        <div class="line"></div>
+        <span><a href="https://en.wikipedia.org/wiki/Milkha_Singh" target="_blank"><img id="milkha" src="Milkha_Singh.jpg"></a></span>
+
+        <span><a href="https://olympics.com/en/athletes/milkha-singh" target="_blank"><img id="milkha" src="ms.jpg"></a></span>
+    </section>
+    <section id="contact">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116078.30777060853!2d73.63701804612717!3d24.608269992497302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1621147818307!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        <div class="contact_1">
+            <a href="mailto:kavyajain349@gmail.com?Subject=Hello">
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;
+                <h3>kavyajain349@gmail.com</h3>
+            </a>
+            <br>
+            <a href="#">
+                <i class="fa fa-instagram"></i>&nbsp;&nbsp;
+                <h3>instagram</h3>
+            </a>
         </div>
     </section>
 
